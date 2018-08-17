@@ -1,0 +1,298 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+.profile-pic {
+	max-width: 70%;
+}
+
+.card {
+	border-radius: 2px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 20px;
+	background-color: rgba(255, 255, 255, 0.85);
+}
+
+.shadowbox {
+    box-shadow: 4px 3px 7px 1px #bec4c6;
+}
+
+.words {
+	font-size: 14px;
+	font-family: 'Amiko', sans-serif;
+	font-weight: normal;
+}
+
+.no-border{
+	border: 0px;
+	border-radius: 0px;
+}
+
+.title {
+	font-weight: bold;
+	color: black;
+}
+
+.rainbow {
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.contact{
+	font-family: Helvetica;
+	font-weight: bold;
+}
+
+.textcenter{
+	text-align: center;
+}
+
+.nav-padding{
+	padding-right: 200px;
+}
+
+.background_img {
+	min-width: 100%;
+	min-height: 100%;
+	background-image: url("../img/comp.png");
+	background-position: center;
+	background-size: cover;
+}
+
+.headerfix{
+	margin: auto;
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+}
+
+.background-color-SkyBlue {
+	background-color: #9aa0e1;
+}
+
+.background-color-Blue {
+	background-color: #06b6ff;
+}
+
+.spacebutton {
+	margin-top: 50px;
+}
+
+.spacetext {
+	margin-top: 375px;
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 50%;
+}
+
+.white {
+	color: white;
+}
+.linespace {
+	margin-right: 10%;
+}
+
+.allfont{
+	font-family: 'Amiko', sans-serif;
+}
+
+.background-color-White{
+	background-color: white;
+}
+
+.animateslow{
+	-webkit-animation-duration: 2s;
+	animation-duration: 2s;
+}
+
+.space {
+	margin-top: 200px;
+}
+
+.comment{
+	width: auto;
+	height: 200px;
+}
+
+.form-style-1 {
+    margin:10px auto;
+    max-width: 400px;
+    padding: 20px 12px 10px 20px;
+    font: 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.form-style-1 li {
+    padding: 0;
+    display: block;
+    list-style: none;
+    margin: 10px 0 0 0;
+}
+.form-style-1 label{
+    margin:0 0 3px 0;
+    padding:0px;
+    display:block;
+    font-weight: bold;
+}
+.form-style-1 input[type=text],
+.form-style-1 input[type=date],
+.form-style-1 input[type=datetime],
+.form-style-1 input[type=number],
+.form-style-1 input[type=search],
+.form-style-1 input[type=time],
+.form-style-1 input[type=url],
+.form-style-1 input[type=email],
+textarea,
+select{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border:1px solid #BEBEBE;
+    padding: 7px;
+    margin:0px;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+}
+.form-style-1 input[type=text]:focus,
+.form-style-1 input[type=date]:focus,
+.form-style-1 input[type=datetime]:focus,
+.form-style-1 input[type=number]:focus,
+.form-style-1 input[type=search]:focus,
+.form-style-1 input[type=time]:focus,
+.form-style-1 input[type=url]:focus,
+.form-style-1 input[type=email]:focus,
+.form-style-1 textarea:focus,
+.form-style-1 select:focus{
+    -moz-box-shadow: 0 0 8px #9aa0e1;
+    -webkit-box-shadow: 0 0 8px #9aa0e1;
+    box-shadow: 0 0 8px #9aa0e1;
+    border: 1px solid #9aa0e1;
+}
+.form-style-1 .field-divided{
+    width: 49%;
+}
+
+.form-style-1 .field-long{
+    width: 100%;
+}
+.form-style-1 .field-select{
+    width: 100%;
+}
+.form-style-1 .field-textarea{
+    height: 100px;
+}
+.form-style-1 input[type=submit], .form-style-1 input[type=button]{
+    background: #4B99AD;
+    padding: 8px 15px 8px 15px;
+    border: none;
+    color: #fff;
+}
+.form-style-1 input[type=submit]:hover, .form-style-1 input[type=button]:hover{
+    background: #4691A4;
+    box-shadow:none;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+}
+.form-style-1 .required{
+    color:red;
+}
+a.animated-button:link, a.animated-button:visited {
+	position: relative;
+	display: block;
+	margin: 30px auto 0;
+	padding: 14px 15px;
+	color: #fff;
+	font-size:14px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	overflow: hidden;
+	letter-spacing: .08em;
+	border-radius: 0;
+	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+a.animated-button:link:after, a.animated-button:visited:after {
+	content: "";
+	position: absolute;
+	height: 0%;
+	left: 50%;
+	top: 50%;
+	width: 150%;
+	z-index: -1;
+	-webkit-transition: all 0.75s ease 0s;
+	-moz-transition: all 0.75s ease 0s;
+	-o-transition: all 0.75s ease 0s;
+	transition: all 0.75s ease 0s;
+}
+a.animated-button:link:hover, a.animated-button:visited:hover {
+	color: #FFF;
+	text-shadow: none;
+}
+a.animated-button:link:hover:after, a.animated-button:visited:hover:after {
+	height: 450%;
+}
+a.animated-button:link, a.animated-button:visited {
+	position: relative;
+	display: block;
+	margin: 30px auto 0;
+	padding: 14px 15px;
+	color: #fff;
+	font-size:14px;
+	border-radius: 0;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	overflow: hidden;
+	letter-spacing: .08em;
+	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+a.animated-button.victoria {
+	border: 2px solid #9aa0e1;
+}
+a.animated-button.victoria:after {
+	background: #9aa0e1;
+	-moz-transform: translateX(-50%) translateY(-50%) rotate(25deg);
+	-ms-transform: translateX(-50%) translateY(-50%) rotate(25deg);
+	-webkit-transform: translateX(-50%) translateY(-50%) rotate(25deg);
+	transform: translateX(-50%) translateY(-50%) rotate(25deg);
+}
+
+.indexbackground {
+	background-color: rgba(255, 255, 255, 0.85);
+	border-radius: 4px;
+}
+
+.move-right {
+	transform: translate(450px);
+}
+
+.move-down {
+	transform: translate(0px -200px);
+}
+
+.footerfix {
+  background-color: #9aa0e1;
+	position: relative;
+}
+
+.fix-content{
+	margin-top: 80px;
+}
+
+.progress-bar {
+    color: #9aa0e1;
+}
