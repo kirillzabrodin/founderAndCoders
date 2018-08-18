@@ -72,3 +72,18 @@ body{
     color: #53BAA5;
     text-align: center;
 }
+
+.container {
+  background-color: rgba(89, 193, 171, .8);
+  opacity: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 100px;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+h2 {
+  text-align: center;
+}
