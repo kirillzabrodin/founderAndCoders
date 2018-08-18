@@ -11,7 +11,8 @@ body{
   margin: 0px;
   padding: 0px;
   color: #17252A;
-  background-image: url('file:///C:/Users/Kirill/Dropbox/Coding/Founder%20and%20Coders/Website/img/background.jpg');
+  background-image: url('../img/background.jpg');
+  background-repeat: repeat;
   font: Verdana;
   }
 
