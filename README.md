@@ -1,18 +1,1 @@
-# founderAndCoders
-A website for FFC to support my application for the autumn 2018 course.
-
-
-Code for my website will be in this repo as well as any other resources used. I will also be writing any issues I have or any features I am unable to add during the course of creating in order to have stuff to research and bring to interview. Any extra info or tools that I find I will keep a list of and share with FFC.
-
-
-Code from application:
-
-var A = 10;
-console.log(A); // 10
-var B = 20;
-console.log(B); // 20
-A = B;
-console.log(A); // 20, they are not bound however so...
-B = 30;
-console.log(B); // 30, the values of both change independently
-console.log(A); // 20
+A website for fun and playing around on
